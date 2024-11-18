@@ -1,0 +1,16 @@
+# SSH Configuration
+ssh:
+  host: "*"
+  username: "*"
+  password: "*"
+  port: 22
+
+# MongoDB Configuration
+mongodb:
+  host: "localhost"
+  port: 27017
+  username: null
+  password: null
+  database: "Advisor"
+  collection: "sessions"
+  use_ssh: false
